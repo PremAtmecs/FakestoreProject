@@ -5,6 +5,9 @@ import com.products.utilities.ReportGeneration;
 import org.testng.annotations.Test;
 
 public class Scenario1 extends ReportGeneration {
+
+    //Scenario1:  Get all Products, Delete the existing Product and Add New Product
+
     public ProductPage product;
 
     //Created a constructor method to initiate the object.

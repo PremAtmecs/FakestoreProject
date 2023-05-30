@@ -37,7 +37,7 @@ public class AuthenticationPage {
         Response response = AuthenticationActions.bearerAuth(token, TestFireEndpoint.API, TestFireEndpoint.LOGIN, authURL);
         response.then().log().all();
         APIUtils.validateResponse(response.statusCode(), StatusCodeConstant.SUCCESS);
-        test.log(LogStatus.INFO, MessageInfo.AUTHORIZATION, response.getStatusLine());
+        test.log(LogStatus.INFO, MessageInfo.BEARER_AUTHORIZATION, response.getStatusLine());
     }
 
     public void OAuth2(){
@@ -45,7 +45,7 @@ public class AuthenticationPage {
         Response response = AuthenticationActions.OAuth2(token, TestFireEndpoint.API, TestFireEndpoint.LOGIN, authURL);
         response.then().log().all();
         APIUtils.validateResponse(response.statusCode(), StatusCodeConstant.SUCCESS);
-        test.log(LogStatus.INFO, MessageInfo.AUTHORIZATION, response.getStatusLine());
+        test.log(LogStatus.INFO, MessageInfo.OPEN_AUTHORIZATION, response.getStatusLine());
     }
 
     public void validateBadRequest(){
@@ -62,6 +62,6 @@ public class AuthenticationPage {
         Response response = AuthenticationActions.bearerAuth(token, TestFireEndpoint.API, TestFireEndpoint.LOGIN, authURL);
         response.then().log().all();
         APIUtils.validateResponse(response.statusCode(), StatusCodeConstant.UNAUTHORIZED);
-        test.log(LogStatus.INFO, MessageInfo.AUTHORIZATION, response.getStatusLine());
+        test.log(LogStatus.INFO, MessageInfo.UNAUTHORIZED, response.getStatusLine());
     }
 }

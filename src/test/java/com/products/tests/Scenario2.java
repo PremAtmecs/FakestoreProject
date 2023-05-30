@@ -5,7 +5,12 @@ import com.products.utilities.ReportGeneration;
 import org.testng.annotations.Test;
 
 public class Scenario2 extends ReportGeneration {
+
+    //Scenario2: Limit result, sort the result, get in date range
+
+
     public CartPage cart;
+
     public Scenario2(){
         cart = new CartPage();
     }

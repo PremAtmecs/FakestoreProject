@@ -25,6 +25,8 @@ public class MessageInfo {
 
     //Security of API
     public static final String AUTHENTICATION = "Authentication";
-    public static final String AUTHORIZATION = "Authorization";
+    public static final String BEARER_AUTHORIZATION = "Bearer method Authorization";
+    public static final String OPEN_AUTHORIZATION = "Open Authorization";
     public static final String BADREQUEST = "validating bad request";
+    public static final String UNAUTHORIZED = "validate unauthorized";
 }

@@ -5,6 +5,12 @@ import com.products.utilities.ReportGeneration;
 import org.testng.annotations.Test;
 
 public class Scenario3 extends ReportGeneration {
+
+    /*
+    *Scenario3: Get All the user,Update the existing user,
+    * Delete the existing user and Add a new user with deleted user details
+    */
+
     public Userpage user;
 
     public Scenario3(){

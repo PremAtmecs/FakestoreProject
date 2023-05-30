@@ -9,6 +9,8 @@ public class CartEndpoint {
     public static final String SORT = "sort";
     public static final String START_DATE = "startdate";
     public static final String END_DATE = "enddate";
+
+
     //Query Values
     public static final int LIMIT_VALUE = 3;
     public static final String SORTING_TYPE = "desc";

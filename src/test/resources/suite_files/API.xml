@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="APIAutomation">
+    <listeners>
+        <listener class-name="com.products.utilities.Listeners"/>
+    </listeners>
+    <test name="API">
+        <classes>
+            <class name="com.products.tests.Scenario1"/>
+            <class name="com.products.tests.Scenario2"/>
+            <class name="com.products.tests.Scenario3"/>
+        </classes>
+    </test>
+</suite>

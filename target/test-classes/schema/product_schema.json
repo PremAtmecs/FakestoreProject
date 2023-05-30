@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "object",
+      "properties": {
+        "rate": {
+          "type": "number"
+        },
+        "count": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "rate",
+        "count"
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "price",
+    "description",
+    "image",
+    "category",
+    "rating"
+  ]
+}

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">2 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-APIAutomation" class="navigator-link">
+              <span class="suite-name border-passed">APIAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-APIAutomation" class="navigator-link ">
+                    <span>C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\resources\suite_files\API.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-APIAutomation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-APIAutomation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-APIAutomation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-APIAutomation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-APIAutomation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-APIAutomation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-APIAutomation" class="hide-methods passed suite-APIAutomation"> (hide)</a> <!-- hide-methods passed suite-APIAutomation -->
+                      <a href="#" panel-name="suite-APIAutomation" class="show-methods passed suite-APIAutomation"> (show)</a> <!-- show-methods passed suite-APIAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-APIAutomation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario1" class="method navigator-link" hash-for-method="tesGetAllProducts">tesGetAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario1" class="method navigator-link" hash-for-method="testAddProduct">testAddProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario3" class="method navigator-link" hash-for-method="testAddUser">testAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.APISecurity" class="method navigator-link" hash-for-method="testBadRequest">testBadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.APISecurity" class="method navigator-link" hash-for-method="testBearerAuthorization">testBearerAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario2" class="method navigator-link" hash-for-method="testDateRange">testDateRange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario1" class="method navigator-link" hash-for-method="testDeleteProduct">testDeleteProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario3" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.APISecurity" class="method navigator-link" hash-for-method="testGetAccessToken">testGetAccessToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario3" class="method navigator-link" hash-for-method="testGetAllUsers">testGetAllUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario2" class="method navigator-link" hash-for-method="testGetLimitCart">testGetLimitCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.APISecurity" class="method navigator-link" hash-for-method="testOpenAuthorization">testOpenAuthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario2" class="method navigator-link" hash-for-method="testSortCartResult">testSortCartResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.APISecurity" class="method navigator-link" hash-for-method="testUnauthorized">testUnauthorized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-APIAutomation" title="com.products.tests.Scenario3" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-APIAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-APIAutomation" class="panel APIAutomation">
+          <div class="suite-APIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.products.tests.Scenario1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tesGetAllProducts">
+                  </a> <!-- tesGetAllProducts -->
+                  <span class="method-name">tesGetAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddProduct">
+                  </a> <!-- testAddProduct -->
+                  <span class="method-name">testAddProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProduct">
+                  </a> <!-- testDeleteProduct -->
+                  <span class="method-name">testDeleteProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-APIAutomation-class-passed -->
+          <div class="suite-APIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.products.tests.Scenario3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddUser">
+                  </a> <!-- testAddUser -->
+                  <span class="method-name">testAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUsers">
+                  </a> <!-- testGetAllUsers -->
+                  <span class="method-name">testGetAllUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-APIAutomation-class-passed -->
+          <div class="suite-APIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.products.tests.Scenario2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDateRange">
+                  </a> <!-- testDateRange -->
+                  <span class="method-name">testDateRange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLimitCart">
+                  </a> <!-- testGetLimitCart -->
+                  <span class="method-name">testGetLimitCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortCartResult">
+                  </a> <!-- testSortCartResult -->
+                  <span class="method-name">testSortCartResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-APIAutomation-class-passed -->
+          <div class="suite-APIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.products.tests.APISecurity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBadRequest">
+                  </a> <!-- testBadRequest -->
+                  <span class="method-name">testBadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBearerAuthorization">
+                  </a> <!-- testBearerAuthorization -->
+                  <span class="method-name">testBearerAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAccessToken">
+                  </a> <!-- testGetAccessToken -->
+                  <span class="method-name">testGetAccessToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenAuthorization">
+                  </a> <!-- testOpenAuthorization -->
+                  <span class="method-name">testOpenAuthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnauthorized">
+                  </a> <!-- testUnauthorized -->
+                  <span class="method-name">testUnauthorized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-APIAutomation-class-passed -->
+        </div> <!-- panel APIAutomation -->
+        <div panel-name="suite-Student_API_Automation" class="panel Student_API_Automation">
+        </div> <!-- panel Student_API_Automation -->
+        <div panel-name="test-xml-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\resources\suite_files\API.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;APIAutomation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.products.utilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.products.tests.APISecurity&quot;/&gt;
+      &lt;class name=&quot;com.products.tests.Scenario1&quot;/&gt;
+      &lt;class name=&quot;com.products.tests.Scenario2&quot;/&gt;
+      &lt;class name=&quot;com.products.tests.Scenario3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API --&gt;
+&lt;/suite&gt; &lt;!-- APIAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Student-API-Automation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;src/test/resources/suite_files/API.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Student-API-Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for APIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Student-API-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for APIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Student-API-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for APIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_APIAutomation');
+function tableData_APIAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetAccessToken')
+data.setCell(0, 2, 'com.products.tests.APISecurity')
+data.setCell(0, 3, 5214);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testOpenAuthorization')
+data.setCell(1, 2, 'com.products.tests.APISecurity')
+data.setCell(1, 3, 1893);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetAllUsers')
+data.setCell(2, 2, 'com.products.tests.Scenario3')
+data.setCell(2, 3, 1668);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testBadRequest')
+data.setCell(3, 2, 'com.products.tests.APISecurity')
+data.setCell(3, 3, 1523);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testUnauthorized')
+data.setCell(4, 2, 'com.products.tests.APISecurity')
+data.setCell(4, 3, 1476);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testBearerAuthorization')
+data.setCell(5, 2, 'com.products.tests.APISecurity')
+data.setCell(5, 3, 1398);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAddProduct')
+data.setCell(6, 2, 'com.products.tests.Scenario1')
+data.setCell(6, 3, 1223);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testUpdateUser')
+data.setCell(7, 2, 'com.products.tests.Scenario3')
+data.setCell(7, 3, 959);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddUser')
+data.setCell(8, 2, 'com.products.tests.Scenario3')
+data.setCell(8, 3, 820);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDateRange')
+data.setCell(9, 2, 'com.products.tests.Scenario2')
+data.setCell(9, 3, 793);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tesGetAllProducts')
+data.setCell(10, 2, 'com.products.tests.Scenario1')
+data.setCell(10, 3, 639);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDeleteProduct')
+data.setCell(11, 2, 'com.products.tests.Scenario1')
+data.setCell(11, 3, 581);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testGetLimitCart')
+data.setCell(12, 2, 'com.products.tests.Scenario2')
+data.setCell(12, 3, 554);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testDeleteUser')
+data.setCell(13, 2, 'com.products.tests.Scenario3')
+data.setCell(13, 3, 553);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSortCartResult')
+data.setCell(14, 2, 'com.products.tests.Scenario2')
+data.setCell(14, 3, 543);
+window.suiteTableData['APIAutomation']= { tableData: data, tableDiv: 'times-div-APIAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-APIAutomation">
+              </div> <!-- times-div-APIAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Student-API-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Student_API_Automation');
+function tableData_Student_API_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Student_API_Automation']= { tableData: data, tableDiv: 'times-div-Student_API_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Student_API_Automation">
+              </div> <!-- times-div-Student_API_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for APIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Student-API-Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.products.tests.Scenario1</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.products.tests.Scenario3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.products.tests.Scenario2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-APIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.products.tests.APISecurity</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.APISecurity.testGetAccessToken())</span>
+                <span class="method-start">1361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAccessToken</span>
+                <span class="method-start">1381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">6599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.APISecurity.testBearerAuthorization())</span>
+                <span class="method-start">6609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBearerAuthorization</span>
+                <span class="method-start">6611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">8010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.APISecurity.testOpenAuthorization())</span>
+                <span class="method-start">8013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOpenAuthorization</span>
+                <span class="method-start">8014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">9907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.APISecurity.testBadRequest())</span>
+                <span class="method-start">9908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBadRequest</span>
+                <span class="method-start">9909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">11432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.APISecurity.testUnauthorized())</span>
+                <span class="method-start">11434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUnauthorized</span>
+                <span class="method-start">11435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12912 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.products.tests.Scenario1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tesGetAllProducts</span>
+                <span class="method-start">12914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario1.tesGetAllProducts())</span>
+                <span class="method-start">12914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">13554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario1.testDeleteProduct())</span>
+                <span class="method-start">13556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProduct</span>
+                <span class="method-start">13557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">14139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario1.testAddProduct())</span>
+                <span class="method-start">14140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddProduct</span>
+                <span class="method-start">14141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">15366 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.products.tests.Scenario2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario2.testGetLimitCart())</span>
+                <span class="method-start">15367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetLimitCart</span>
+                <span class="method-start">15368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">15923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario2.testSortCartResult())</span>
+                <span class="method-start">15924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSortCartResult</span>
+                <span class="method-start">15925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">16469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario2.testDateRange())</span>
+                <span class="method-start">16470 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDateRange</span>
+                <span class="method-start">16471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">17264 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.products.tests.Scenario3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUsers</span>
+                <span class="method-start">17266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario3.testGetAllUsers())</span>
+                <span class="method-start">17266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">18935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario3.testUpdateUser())</span>
+                <span class="method-start">18936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">18936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">19895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario3.testAddUser())</span>
+                <span class="method-start">19896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddUser</span>
+                <span class="method-start">19897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">20717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.products.tests.Scenario3.testDeleteUser())</span>
+                <span class="method-start">20718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">20719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">21272 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.products.tests.APISecurity</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">21319 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Student_API_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,47 @@
+Request method:	POST
+Request URI:	https://demo.testfire.net/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	endpoint1=api
+				endpoint2=login
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "jsmith",
+    "password": "demo1234"
+}
+Request method:	POST
+Request URI:	https://demo.testfire.net/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	endpoint1=api
+				endpoint2=login
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "jsmith",
+    "password": "demo"
+}
+Request method:	GET
+Request URI:	https://demo.testfire.net/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	endpoint1=api
+				endpoint2=login
+Headers:		Authorization=Bearer bjabflajdfljafkjl
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -3,7 +3,7 @@ C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\jav
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\message\MessageInfo.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\pojo\Geolocation.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\endpoint\ProductEndpoint.java
-C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\pojo\TestFire.java
+C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\pojo\TestFirePojo.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\endpoint\TestFireEndpoint.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\utilities\Listeners.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\endpoint\UsersEndpoint.java
@@ -14,7 +14,7 @@ C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\jav
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\payload\ProductPayload.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\pojo\Address.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\tests\APISecurity.java
-C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\pojo\Products.java
+C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\pojo\ProductsPojo.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\constant\StatusCodeConstant.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\utilities\PropertyParser.java
 C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\src\test\java\com\products\constant\KeyConstant.java

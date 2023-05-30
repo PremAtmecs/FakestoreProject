@@ -5,6 +5,7 @@
     </listeners>
     <test name="API">
         <classes>
+            <class name="com.products.tests.APISecurity"/>
             <class name="com.products.tests.Scenario1"/>
             <class name="com.products.tests.Scenario2"/>
             <class name="com.products.tests.Scenario3"/>

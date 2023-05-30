@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.212" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.258" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire6317179731160083695\surefirebooter-20230529223531858_3.jar C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire6317179731160083695 2023-05-29T22-35-31_506-jvmRun1 surefire-20230529223531858_1tmp surefire_0-20230529223531858_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire4822203047612231868\surefirebooter-20230530104736219_3.jar C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire4822203047612231868 2023-05-30T10-47-35_267-jvmRun1 surefire-20230530104736219_1tmp surefire_0-20230530104736219_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\target\test-classes;C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\target\classes;C:\Users\premkumar.sarathi\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\premkumar.sarathi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\premkumar.sarathi\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\premkumar.sarathi\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\premkumar.sarathi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\premkumar.sarathi\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\premkumar.sarathi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\premkumar.sarathi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\premkumar.sarathi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire6317179731160083695\surefirebooter-20230529223531858_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire4822203047612231868\surefirebooter-20230530104736219_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
@@ -61,91 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testGetAccessToken" classname="com.products.tests.APISecurity" time="5.218">
+  <testcase name="tesGetAllProducts" classname="com.products.tests.Scenario1" time="8.321">
     <system-out><![CDATA[onStart method started
-Method started testGetAccessToken
+Method started tesGetAllProducts
 HTTP/1.1 200 OK
-Server: Apache-Coyote/1.1
-Content-Type: application/json
-Content-Length: 96
-Date: Mon, 29 May 2023 17:05:38 GMT
-
-{
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj9gPz9hZT8=",
-    "success": "jsmith is now logged in"
-}
-PASS - Actual Result ::200==Expected Result ::200
-Method passed testGetAccessToken
-]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="testBearerAuthorization" classname="com.products.tests.APISecurity" time="1.4">
-    <system-out><![CDATA[Method started testBearerAuthorization
-HTTP/1.1 200 OK
-Server: Apache-Coyote/1.1
-Content-Type: application/json
-Content-Length: 19
-Date: Mon, 29 May 2023 17:05:41 GMT
-
-{
-    "loggedin": "true"
-}
-PASS - Actual Result ::200==Expected Result ::200
-Method passed testBearerAuthorization
-]]></system-out>
-  </testcase>
-  <testcase name="testOpenAuthorization" classname="com.products.tests.APISecurity" time="1.894">
-    <system-out><![CDATA[Method started testOpenAuthorization
-HTTP/1.1 200 OK
-Server: Apache-Coyote/1.1
-Content-Type: application/json
-Content-Length: 19
-Date: Mon, 29 May 2023 17:05:43 GMT
-
-{
-    "loggedin": "true"
-}
-PASS - Actual Result ::200==Expected Result ::200
-Method passed testOpenAuthorization
-]]></system-out>
-  </testcase>
-  <testcase name="testBadRequest" classname="com.products.tests.APISecurity" time="1.524">
-    <system-out><![CDATA[Method started testBadRequest
-HTTP/1.1 400 Bad Request
-Server: Apache-Coyote/1.1
-Content-Type: application/json
-Content-Length: 83
-Date: Mon, 29 May 2023 17:05:45 GMT
-Connection: close
-
-{
-    "error": "We're sorry, but this username or password was not found in our system."
-}
-PASS - Actual Result ::400==Expected Result ::400
-Method passed testBadRequest
-]]></system-out>
-  </testcase>
-  <testcase name="testUnauthorized" classname="com.products.tests.APISecurity" time="1.477">
-    <system-out><![CDATA[Method started testUnauthorized
-HTTP/1.1 401 Unauthorized
-Server: Apache-Coyote/1.1
-Content-Type: text/plain
-Content-Length: 35
-Date: Mon, 29 May 2023 17:05:46 GMT
-
-loggedIn=false
-Please log in first
-PASS - Actual Result ::401==Expected Result ::401
-Method passed testUnauthorized
-]]></system-out>
-  </testcase>
-  <testcase name="tesGetAllProducts" classname="com.products.tests.Scenario1" time="0.725">
-    <system-out><![CDATA[Method started tesGetAllProducts
-HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:47 GMT
+Date: Tue, 30 May 2023 05:17:50 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -153,10 +73,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jki1jkvjAzwWIxHxSOgTDIl9S9Vs84MoOlQPloHShDWYIj21oPg6EkRo0%2FOjMNbCee%2FLoz%2FZMcb4MjFrr5YXbp7jx8bGaceCnuLxGO9k%2B%2FxphHx28Y6%2BpfK47xFMYpFh%2BOMo"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pKf%2BABtgVHuqcNslY3mfXmTXJXstky6q0xnwvHMdK2PlrJE7iSVk2e58OkkYQENo6cxO4mN3McBcxmggHNZ1JOpkpy4tZIfTwa1%2B4CkxWj24AJ11pg4lrvMvKWGYhR%2FUxWSw"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf052fe2e2b8609-BOM
+CF-RAY: 7cf483529b5a44a6-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -405,11 +325,15 @@ alt-svc: h3=":443"; ma=86400
 PASS - Actual Result ::200==Expected Result ::200
 Method passed tesGetAllProducts
 ]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
   </testcase>
-  <testcase name="testDeleteProduct" classname="com.products.tests.Scenario1" time="0.504">
+  <testcase name="testDeleteProduct" classname="com.products.tests.Scenario1" time="0.818">
     <system-out><![CDATA[Method started testDeleteProduct
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:48 GMT
+Date: Tue, 30 May 2023 05:17:52 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -417,10 +341,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"16d-qTR0d8mKeFXf4BNQZ3HqeuIY5nI"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZgvvB9UwJamuTrehRftosgR5WnwEvDYp7oos7VH3sZgUZsx4fKiMWcRlr5BZ2pr6qgkS4kUvUnTojkw%2BusAl5IjYOq0X8NrqLwMqpLWSgQiu1FAb1uPZVlHnDq8B8%2Bw1c90G"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AJEET1bgxtm5jvOaGp2oNosuVtPBRKoHa%2FSxZuqe9F6oNyfHTaKScn68Pux6k1SGH9GVl7zmZ3ZN3Fcad7aZzn%2BYBbISqSZegAWNgikJijF%2Ba3i1frUpXQDalZ1RjcI00Bx%2B"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf053022fa46ee3-BOM
+CF-RAY: 7cf483622fa840a3-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -440,7 +364,7 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testDeleteProduct
 ]]></system-out>
   </testcase>
-  <testcase name="testAddProduct" classname="com.products.tests.Scenario1" time="1.22">
+  <testcase name="testAddProduct" classname="com.products.tests.Scenario1" time="4.048">
     <system-out><![CDATA[Method started testAddProduct
 Request method:	POST
 Request URI:	https://fakestoreapi.com/products
@@ -466,7 +390,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:49 GMT
+Date: Tue, 30 May 2023 05:17:55 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -474,10 +398,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"85-oobhkPLGgrtForpHGmDokAcISb8"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kck7souLLjxMG9r0pp17a0NpAWEwxKcQ%2BVeC3LijJrYomNRh1wjM476G8NodRM5iMwzb5z1KZ47OPiMRXwdIQHDfajPaB%2Bk9fIKmIeMXbh2Bf6FlW%2FNdQHf867nKE1doyBP9"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oo4YQFDI7P0u9IQIvHizG213AuVH5PN9qCgwLiOzm%2BGhR6eWJoqYND959dJt94Ogec3lDdrHGfgqm1QwsoqeX0yRS0l69BqsYVfdHo6lEOvtZRUMSRLnkRjd0ipvHYaSh5mx"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf053069e8b8566-BOM
+CF-RAY: 7cf48375b9c0895e-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -493,10 +417,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testAddProduct
 ]]></system-out>
   </testcase>
-  <testcase name="testGetLimitCart" classname="com.products.tests.Scenario2" time="0.561">
+  <testcase name="testGetLimitCart" classname="com.products.tests.Scenario2" time="1.057">
     <system-out><![CDATA[Method started testGetLimitCart
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:50 GMT
+Date: Tue, 30 May 2023 05:17:58 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -504,10 +428,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b9VvH40T00PadVcJ4VliR8mw6%2FP5S5ExLl18VI0YIFbn1LerjKEwtcdWFaodovSwRi4QMwOb5zid8brYPVaRA6%2BCypkK48VQUi4rAre%2BIjmxU6r56eQP%2BaYemsaGTVuvdeuQ"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V5arL7i5xsW%2Brs3%2BOymv9anKHQIZ0Orl5ruCimXk35ip8D1RgEfzUnVvmkjRGrl0uxNoRHFB5t%2Bo529U0z7Y%2FMUxuzrkZUcUcWskA9HNZBeYFXTk3rMIjiJz16S8M%2Bd7ef4H"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf0530d6dd084e3-BOM
+CF-RAY: 7cf483825f173e4f-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -573,10 +497,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testGetLimitCart
 ]]></system-out>
   </testcase>
-  <testcase name="testSortCartResult" classname="com.products.tests.Scenario2" time="0.555">
+  <testcase name="testSortCartResult" classname="com.products.tests.Scenario2" time="0.973">
     <system-out><![CDATA[Method started testSortCartResult
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:50 GMT
+Date: Tue, 30 May 2023 05:17:58 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -584,10 +508,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IKZ%2FHZMhJRX0N3ZJGUjh9mG9nkZUznKgS03c7kM8OptlPbwk%2BngILZioQvWRmUGMkkDpi9mmojqwoypQd1LK06MvjmtN7LfK4YfU%2Frm6e9RmG71Qx2vfCPIoZWCmat9nE9QT"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TufXA7GjoQCetN7pfCqgUnKW5BaIBwDPJMn2iiVDWtoxuzF9P43H2Xb1ORqORmV1grqg1Ch3Uq%2FCS29qfecFxP01y5wJE5ICh6H4VB3evBW6i9sSvypYxuJT3Ac3X51OH2eK"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf05310badf2e2e-BOM
+CF-RAY: 7cf48387a8cf40e5-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -709,10 +633,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testSortCartResult
 ]]></system-out>
   </testcase>
-  <testcase name="testDateRange" classname="com.products.tests.Scenario2" time="0.783">
+  <testcase name="testDateRange" classname="com.products.tests.Scenario2" time="0.929">
     <system-out><![CDATA[Method started testDateRange
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:51 GMT
+Date: Tue, 30 May 2023 05:18:00 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -720,10 +644,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"10c-7Egbp1+U8xwtB4VaP0z81mcg9B8"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=j6tem8HM2NNKixXMg0cvk8GLWkXDZaXJI22k4s61hjrj0xreboH9O1cxkY9EETRr3GW4gN%2FtKTLfYR8c0mhtQFpmmb4K79%2FB%2Fda9Ziq82iQUh4qGKwcWU7myCXnkyM09541p"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TaviA8Cd1GRBb6N8S9m%2FAwdaWLTywY5lFefN3CtWGjwRmkgHj%2FFWzqvtZ86Rqy96je%2B2d4OvYVOvOp4c46%2F0L0cWs26VP69%2BtgkdIHD4ALJRlxKs%2F0%2FPnhjgE9534I2pRwq0"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf053143e0f3199-BOM
+CF-RAY: 7cf4838e5aaf40ef-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -765,10 +689,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testDateRange
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAllUsers" classname="com.products.tests.Scenario3" time="1.685">
+  <testcase name="testGetAllUsers" classname="com.products.tests.Scenario3" time="0.968">
     <system-out><![CDATA[Method started testGetAllUsers
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:53 GMT
+Date: Tue, 30 May 2023 05:18:00 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -776,10 +700,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PxsfXFKn6ylKHEvv28PJSDr4RIIJXHjuvhWLWyXWF%2F0sJ5m5lNXGAfy8uLlK6hzZ%2BTK4i2lWbNNArbSDnN7YWDzlaVFdIj1AFYAjEt4gf%2Fv%2BA7ewDKwdz%2F%2BwIkuAcTWz5nHo"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xJs5GlEQDEq0zFsylGQEOUHQEYMBIzMu1Zf%2FA3oLINQL491EVy56rgviXlh7vSblRCQKHcwoFpbPmsCTljd91EjU6dxkpSyu%2BboH%2BYtqtUFvlx7zYSFGB%2BRBsTlHgUKrh%2BVF"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf0531f6da11bcb-BOM
+CF-RAY: 7cf48393eba45658-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -1009,70 +933,70 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testGetAllUsers
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUser" classname="com.products.tests.Scenario3" time="0.945">
+  <testcase name="testUpdateUser" classname="com.products.tests.Scenario3" time="1.507">
     <system-out><![CDATA[Method started testUpdateUser
 Body:
 {
-    "email": "dylan.kiehn@yahoo.com",
-    "username": "collier.biz",
-    "password": "4f7y3zpjo36d7vp",
+    "email": "paul.williamson@gmail.com",
+    "username": "stanton.co",
+    "password": "gqf2wex08885mmp",
     "name": {
-        "firstname": "Kacie",
-        "lastname": "Stanton"
+        "firstname": "Pete",
+        "lastname": "O'Keefe"
     },
     "address": {
-        "city": "Quito",
-        "street": "Pollich Street",
-        "number": 4,
-        "zipcode": "4769878290239",
+        "city": "Accra",
+        "street": "Barrows Meadow",
+        "number": 8,
+        "zipcode": "9335108353231",
         "geolocation": {
-            "lat": "D4C15077",
-            "long": "3AAC9F68"
+            "lat": "180386B4",
+            "long": "A86EF7B8"
         }
     },
-    "phone": "478-345-1114"
+    "phone": "324-846-1241 x85970"
 }
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:54 GMT
+Date: Tue, 30 May 2023 05:18:02 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"12d-IBphxPVi7Fm8cb0jJ1RSgJm9mVY"
+Etag: W/"136-XMj/ig66KIysRbRESxDx1mRyLrU"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TXScU9L6E3YHgtN5nN4zQLNlEaBSLDkQX6dfwYEZgAYSp%2B%2Bf4fAHrbgDmfxsBiOIqvFR3x37rZGL%2BtHhjr9wG8zl7LM7Tc2Y1rIQkxTzqLTPHASIMbmfSiTAnDi6yZNeoNx1"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q7VqZjKF0e6k2vKJLbKU7tnnuTspfnm3nkeWkLSgxKeodS1rl1Ne3d2ScPlCHDe2FMjd5mDINkAwxcTTNcsGV4spvBdCkMYXTMrf7ao08rbN%2BFqlHlFuupxZKA1%2FADZo2UjA"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf05325bb2af333-BOM
+CF-RAY: 7cf4839edf484cdd-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
-    "email": "dylan.kiehn@yahoo.com",
-    "username": "collier.biz",
-    "password": "4f7y3zpjo36d7vp",
+    "email": "paul.williamson@gmail.com",
+    "username": "stanton.co",
+    "password": "gqf2wex08885mmp",
     "name": {
-        "firstname": "Kacie",
-        "lastname": "Stanton"
+        "firstname": "Pete",
+        "lastname": "O'Keefe"
     },
     "address": {
-        "city": "Quito",
-        "street": "Pollich Street",
-        "number": 4,
-        "zipcode": "4769878290239",
+        "city": "Accra",
+        "street": "Barrows Meadow",
+        "number": 8,
+        "zipcode": "9335108353231",
         "geolocation": {
-            "lat": "D4C15077",
-            "long": "3AAC9F68"
+            "lat": "180386B4",
+            "long": "A86EF7B8"
         }
     },
-    "phone": "478-345-1114"
+    "phone": "324-846-1241 x85970"
 }
 PASS - Actual Result ::200==Expected Result ::200
 Method passed testUpdateUser
 ]]></system-out>
   </testcase>
-  <testcase name="testAddUser" classname="com.products.tests.Scenario3" time="0.82">
+  <testcase name="testAddUser" classname="com.products.tests.Scenario3" time="0.943">
     <system-out><![CDATA[Method started testAddUser
 Request method:	POST
 Request URI:	https://fakestoreapi.com/users
@@ -1087,51 +1011,51 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "jonas.emard@gmail.com",
-    "username": "mclaughlin.com",
-    "password": "b5pkdq28tqpa",
+    "email": "jacquetta.keebler@hotmail.com",
+    "username": "williamson.biz",
+    "password": "8scv2iyhpf4wbmt",
     "name": {
-        "firstname": "Kittie",
-        "lastname": "Schowalter"
+        "firstname": "Brant",
+        "lastname": "Gleason"
     },
     "address": {
-        "city": "Victoria",
-        "street": "Charlie Vista",
-        "number": 2,
-        "zipcode": "3947018276362",
+        "city": "Bucharest",
+        "street": "Heller Fords",
+        "number": 6,
+        "zipcode": "7923495809619",
         "geolocation": {
-            "lat": "D08DE5DB",
-            "long": "2B6E3D38"
+            "lat": "0436A2AA",
+            "long": "954FAB34"
         }
     },
-    "phone": "791.634.8711"
+    "phone": "1-524-422-5540"
 }
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:54 GMT
+Date: Tue, 30 May 2023 05:18:03 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 9
+Content-Length: 8
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"9-hVv0cNJophUD7CGn+ZqXp8tVGo0"
+Etag: W/"8-h5EdGu1QmHe4OkjsU292jNzSLfE"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hyB5qaBVigK4ciqEAwavDzpRZWn28dnI29VOyqNuZQW4bpVdCkAJUC580lH80cAs2hSQT5JcuKBMm%2B5I8i3N9CjA52SFNOEg79%2BmZjiLqsapoOr%2F%2BFTajDTUY3X7N33GR0fe"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Djgq2TVKz27tSG%2FuNS3Eh77FpvGWQfbhTx4lJ96I59uwQtW%2F7LFUQPjRDImGy4J71ohwnWHeIhF3CBkLjazGVv2NRLSzJqau%2Bbzs9JjhxMperlxlog1lHh7g9RG0FwCKF98b"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf05329a89031ab-BOM
+CF-RAY: 7cf483a3987ba198-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 11
+    "id": 1
 }
 PASS - Actual Result ::200==Expected Result ::200
 Method passed testAddUser
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser" classname="com.products.tests.Scenario3" time="0.555">
+  <testcase name="testDeleteUser" classname="com.products.tests.Scenario3" time="0.891">
     <system-out><![CDATA[Method started testDeleteUser
 HTTP/1.1 200 OK
-Date: Mon, 29 May 2023 17:05:55 GMT
+Date: Tue, 30 May 2023 05:18:04 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1139,10 +1063,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"12c-qh6raI/EWS3a5DDlu8tTdvjmcN0"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OV5KzfKjvW2KY7Fbq2IurfOTSBVo3ph54Ilzc%2FWLOvKamd%2Fr%2F85k%2FjUna6eWgMizC32%2FJ8Epi%2Be9SHZaDtA6cBfhiYFRp3PWo9TVCyDkVGgnjyYQaF2P9ymRXNU5MoIQtXnq"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=L3wKen0AxQ5h7Byj92BJIDDV8bRueclvvDCRLWnQBeO4%2FYETecKaSPofcwzrN%2BX3%2BzJQhW0iOq9ZJp6pLMe9%2FsBq0dwPZx6WF%2B9Whimv4%2B3yIfORLHW%2FM%2FY6Y%2FEKs%2FHEbACP"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cf0532eba5b3228-BOM
+CF-RAY: 7cf483a908149e47-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="21" passed="15" failed="0" skipped="0">
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-29T22:35:35 IST" name="APIAutomation" finished-at="2023-05-29T22:35:55 IST" duration-ms="19972">
+  <suite started-at="2023-05-30T10:47:43 IST" name="APIAutomation" finished-at="2023-05-30T10:48:04 IST" duration-ms="20586">
     <groups>
     </groups>
-    <test started-at="2023-05-29T22:35:35 IST" name="API" finished-at="2023-05-29T22:35:55 IST" duration-ms="19972">
+    <test started-at="2023-05-30T10:47:43 IST" name="API" finished-at="2023-05-30T10:48:04 IST" duration-ms="20586">
       <class name="com.products.tests.Scenario2">
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:49 IST" name="beforeMethod" finished-at="2023-05-29T22:35:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:57 IST" name="beforeMethod" finished-at="2023-05-30T10:47:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testGetLimitCart()[pri:1, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:49 IST" name="testGetLimitCart" finished-at="2023-05-29T22:35:50 IST" duration-ms="554" status="PASS">
+        <test-method signature="testGetLimitCart()[pri:1, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:57 IST" name="testGetLimitCart" finished-at="2023-05-30T10:47:58 IST" duration-ms="1042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetLimitCart -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:50 IST" name="afterMethod" finished-at="2023-05-29T22:35:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:58 IST" name="afterMethod" finished-at="2023-05-30T10:47:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:50 IST" name="beforeMethod" finished-at="2023-05-29T22:35:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:58 IST" name="beforeMethod" finished-at="2023-05-30T10:47:58 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testSortCartResult()[pri:2, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:50 IST" name="testSortCartResult" finished-at="2023-05-29T22:35:50 IST" duration-ms="543" status="PASS">
+        <test-method signature="testSortCartResult()[pri:2, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:58 IST" name="testSortCartResult" finished-at="2023-05-30T10:47:59 IST" duration-ms="869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSortCartResult -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:50 IST" name="afterMethod" finished-at="2023-05-29T22:35:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:59 IST" name="afterMethod" finished-at="2023-05-30T10:47:59 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:50 IST" name="beforeMethod" finished-at="2023-05-29T22:35:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:59 IST" name="beforeMethod" finished-at="2023-05-30T10:47:59 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,21 +56,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testDateRange()[pri:3, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:50 IST" name="testDateRange" finished-at="2023-05-29T22:35:51 IST" duration-ms="793" status="PASS">
+        <test-method signature="testDateRange()[pri:3, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:47:59 IST" name="testDateRange" finished-at="2023-05-30T10:48:00 IST" duration-ms="1028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDateRange -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario2@7bba5817]" started-at="2023-05-29T22:35:51 IST" name="afterMethod" finished-at="2023-05-29T22:35:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario2@5149d738]" started-at="2023-05-30T10:48:00 IST" name="afterMethod" finished-at="2023-05-30T10:48:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.products.tests.Scenario2 -->
       <class name="com.products.tests.Scenario3">
-        <test-method signature="testGetAllUsers()[pri:1, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:51 IST" name="testGetAllUsers" finished-at="2023-05-29T22:35:53 IST" duration-ms="1668" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetAllUsers -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:51 IST" name="beforeMethod" finished-at="2023-05-29T22:35:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:00 IST" name="beforeMethod" finished-at="2023-05-30T10:48:00 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,15 +77,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:53 IST" name="afterMethod" finished-at="2023-05-29T22:35:53 IST" duration-ms="0" status="PASS">
+        <test-method signature="testGetAllUsers()[pri:1, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:00 IST" name="testGetAllUsers" finished-at="2023-05-30T10:48:01 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:01 IST" name="afterMethod" finished-at="2023-05-30T10:48:01 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testUpdateUser()[pri:2, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:53 IST" name="testUpdateUser" finished-at="2023-05-29T22:35:54 IST" duration-ms="959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUpdateUser -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:53 IST" name="beforeMethod" finished-at="2023-05-29T22:35:53 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:01 IST" name="beforeMethod" finished-at="2023-05-30T10:48:01 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,11 +96,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:54 IST" name="afterMethod" finished-at="2023-05-29T22:35:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="testUpdateUser()[pri:2, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:01 IST" name="testUpdateUser" finished-at="2023-05-30T10:48:02 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:02 IST" name="afterMethod" finished-at="2023-05-30T10:48:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:54 IST" name="beforeMethod" finished-at="2023-05-29T22:35:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:02 IST" name="beforeMethod" finished-at="2023-05-30T10:48:02 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,15 +115,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testAddUser()[pri:3, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:54 IST" name="testAddUser" finished-at="2023-05-29T22:35:54 IST" duration-ms="820" status="PASS">
+        <test-method signature="testAddUser()[pri:3, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:02 IST" name="testAddUser" finished-at="2023-05-30T10:48:03 IST" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:54 IST" name="afterMethod" finished-at="2023-05-29T22:35:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:03 IST" name="afterMethod" finished-at="2023-05-30T10:48:03 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:54 IST" name="beforeMethod" finished-at="2023-05-29T22:35:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:03 IST" name="beforeMethod" finished-at="2023-05-30T10:48:03 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,21 +134,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testDeleteUser()[pri:4, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:54 IST" name="testDeleteUser" finished-at="2023-05-29T22:35:55 IST" duration-ms="553" status="PASS">
+        <test-method signature="testDeleteUser()[pri:4, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:03 IST" name="testDeleteUser" finished-at="2023-05-30T10:48:04 IST" duration-ms="869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteUser -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@75437611]" started-at="2023-05-29T22:35:55 IST" name="afterMethod" finished-at="2023-05-29T22:35:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario3@3a7442c7]" started-at="2023-05-30T10:48:04 IST" name="afterMethod" finished-at="2023-05-30T10:48:04 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.products.tests.Scenario3 -->
       <class name="com.products.tests.Scenario1">
-        <test-method signature="tesGetAllProducts()[pri:1, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:47 IST" name="tesGetAllProducts" finished-at="2023-05-29T22:35:47 IST" duration-ms="639" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:41 IST" name="beforeSuite" finished-at="2023-05-30T10:47:43 IST" duration-ms="2730" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tesGetAllProducts -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:47 IST" name="beforeMethod" finished-at="2023-05-29T22:35:47 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:43 IST" name="beforeMethod" finished-at="2023-05-30T10:47:43 IST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -159,11 +159,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:47 IST" name="afterMethod" finished-at="2023-05-29T22:35:47 IST" duration-ms="1" status="PASS">
+        <test-method signature="tesGetAllProducts()[pri:1, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:43 IST" name="tesGetAllProducts" finished-at="2023-05-30T10:47:51 IST" duration-ms="7836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesGetAllProducts -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:51 IST" name="afterMethod" finished-at="2023-05-30T10:47:51 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:47 IST" name="beforeMethod" finished-at="2023-05-29T22:35:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:51 IST" name="beforeMethod" finished-at="2023-05-30T10:47:51 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,15 +178,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testDeleteProduct()[pri:2, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:47 IST" name="testDeleteProduct" finished-at="2023-05-29T22:35:48 IST" duration-ms="581" status="PASS">
+        <test-method signature="testDeleteProduct()[pri:2, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:51 IST" name="testDeleteProduct" finished-at="2023-05-30T10:47:53 IST" duration-ms="1196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:48 IST" name="afterMethod" finished-at="2023-05-29T22:35:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:53 IST" name="afterMethod" finished-at="2023-05-30T10:47:53 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:48 IST" name="beforeMethod" finished-at="2023-05-29T22:35:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:53 IST" name="beforeMethod" finished-at="2023-05-30T10:47:53 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,123 +197,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testAddProduct()[pri:3, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:48 IST" name="testAddProduct" finished-at="2023-05-29T22:35:49 IST" duration-ms="1223" status="PASS">
+        <test-method signature="testAddProduct()[pri:3, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:53 IST" name="testAddProduct" finished-at="2023-05-30T10:47:57 IST" duration-ms="4059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProduct -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario1@33065d67]" started-at="2023-05-29T22:35:49 IST" name="afterMethod" finished-at="2023-05-29T22:35:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:47:57 IST" name="afterMethod" finished-at="2023-05-30T10:47:57 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.products.tests.Scenario1 -->
-      <class name="com.products.tests.APISecurity">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:34 IST" name="beforeSuite" finished-at="2023-05-29T22:35:35 IST" duration-ms="1296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:35 IST" name="beforeMethod" finished-at="2023-05-29T22:35:35 IST" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.products.tests.APISecurity.testGetAccessToken()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testGetAccessToken()[pri:1, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:35 IST" name="testGetAccessToken" finished-at="2023-05-29T22:35:40 IST" duration-ms="5214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetAccessToken -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:40 IST" name="afterMethod" finished-at="2023-05-29T22:35:40 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:40 IST" name="beforeMethod" finished-at="2023-05-29T22:35:40 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.products.tests.APISecurity.testBearerAuthorization()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testBearerAuthorization()[pri:2, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:40 IST" name="testBearerAuthorization" finished-at="2023-05-29T22:35:42 IST" depends-on-methods="com.products.tests.APISecurity.testGetAccessToken" duration-ms="1398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBearerAuthorization -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:42 IST" name="afterMethod" finished-at="2023-05-29T22:35:42 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:42 IST" name="beforeMethod" finished-at="2023-05-29T22:35:42 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.products.tests.APISecurity.testOpenAuthorization()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testOpenAuthorization()[pri:3, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:42 IST" name="testOpenAuthorization" finished-at="2023-05-29T22:35:44 IST" depends-on-methods="com.products.tests.APISecurity.testGetAccessToken" duration-ms="1893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOpenAuthorization -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:44 IST" name="afterMethod" finished-at="2023-05-29T22:35:44 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:44 IST" name="beforeMethod" finished-at="2023-05-29T22:35:44 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.products.tests.APISecurity.testBadRequest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testBadRequest()[pri:4, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:44 IST" name="testBadRequest" finished-at="2023-05-29T22:35:45 IST" duration-ms="1523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBadRequest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:45 IST" name="afterMethod" finished-at="2023-05-29T22:35:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:45 IST" name="beforeMethod" finished-at="2023-05-29T22:35:45 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.products.tests.APISecurity.testUnauthorized()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testUnauthorized()[pri:5, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:45 IST" name="testUnauthorized" finished-at="2023-05-29T22:35:47 IST" duration-ms="1476" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testUnauthorized -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:47 IST" name="afterMethod" finished-at="2023-05-29T22:35:47 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.products.tests.APISecurity@795509d9]" started-at="2023-05-29T22:35:55 IST" name="afterSuite" finished-at="2023-05-29T22:35:55 IST" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.products.tests.Scenario1@2034b64c]" started-at="2023-05-30T10:48:04 IST" name="afterSuite" finished-at="2023-05-30T10:48:05 IST" duration-ms="736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.products.tests.APISecurity -->
+      </class> <!-- com.products.tests.Scenario1 -->
     </test> <!-- API -->
   </suite> <!-- APIAutomation -->
-  <suite started-at="2023-05-29T22:35:56 IST" name="Student-API-Automation" finished-at="2023-05-29T22:35:56 IST" duration-ms="0">
+  <suite started-at="2023-05-30T10:48:05 IST" name="Student-API-Automation" finished-at="2023-05-30T10:48:05 IST" duration-ms="0">
     <groups>
     </groups>
   </suite> <!-- Student-API-Automation -->

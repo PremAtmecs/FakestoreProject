@@ -34,10 +34,10 @@ public class RequestActions {
     }
 
 
-    public static Response readWithMultiParams(Object endpoint1, Object endpoint2, String url){
+    public static Response readWithMultiParams(Object path, Object endpoint, String url){
         Response response = given()
-                .pathParam("endpoint1", endpoint1)
-                .pathParam("endpoint2", endpoint2)
+                .pathParam("path", path)
+                .pathParam("endpoint", endpoint)
                 .when()
                 .get(url);
         return response;
@@ -54,35 +54,36 @@ public class RequestActions {
                 .post(url);
         return response;
     }
-    public static Response createwithMultipleParam(Object payload,String endpoint1, String endpoint2, String postURL){
+    public static Response createwithMultipleParam(Object payload,String path, String endpoint, String postURL){
         Response response = given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
-                .pathParam("endpoint1", endpoint1)
-                .pathParam("endpoint2", endpoint2)
+                .pathParam("path", path)
+                .pathParam("endpoint", endpoint)
                 .body(payload)
                 .when()
                 .post(postURL);
         return response;
     }
 
-    public static Response update(Object endpoint1, Object endpoint2, Object payload, String url){
+
+    public static Response update(Object path, Object endpoint, Object payload, String url){
         Response response = given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
                 .body(payload)
                 .log().body()
-                .pathParam("endpoint1", endpoint1)
-                .pathParam("endpoint2", endpoint2)
+                .pathParam("path", path)
+                .pathParam("endpoint", endpoint)
                 .when()
                 .put(url);
         return response;
     }
 
-    public static Response delete(Object endpoint1, Object endpoint2, String url){
+    public static Response delete(Object path, Object endpoint, String url){
         Response response = given()
-                .pathParam("endpoint1", endpoint1)
-                .pathParam("endpoint2", endpoint2)
+                .pathParam("path", path)
+                .pathParam("endpoint", endpoint)
                 .when()
                 .delete(url);
         return response;

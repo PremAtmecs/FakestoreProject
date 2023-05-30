@@ -23,21 +23,21 @@ public class AuthenticationActions {
         return response;
     }
 
-    public static Response bearerAuth(String token, String endpoint1, String endpoint2, String authorizationURL){
+    public static Response bearerAuth(String token, String path, String endpoint, String authorizationURL){
         Response response = given()
                 .header("Authorization", "Bearer "+token)
-                .pathParam("endpoint1", endpoint1)
-                .pathParam("endpoint2", endpoint2)
+                .pathParam("path", path)
+                .pathParam("endpoint", endpoint)
                 .when()
                 .get(authorizationURL);
         return response;
     }
 
-    public static Response OAuth2(String token, String endpoint1, String endpoint2, String authorizationURL){
+    public static Response OAuth2(String token, String path, String endpoint, String authorizationURL){
         Response response = given()
                 .auth().oauth2(token)
-                .pathParam("endpoint1", endpoint1)
-                .pathParam("endpoint2", endpoint2)
+                .pathParam("path", path)
+                .pathParam("endpoint", endpoint)
                 .when()
                 .get(authorizationURL);
         return response;

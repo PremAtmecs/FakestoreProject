@@ -3,10 +3,10 @@ com\products\pojo\Name.class
 com\products\utilities\PropertyParser.class
 com\products\utilities\ReportGeneration.class
 com\products\endpoint\ProductEndpoint.class
+com\products\pojo\TestFirePojo.class
 com\products\tests\Scenario3.class
 com\products\constant\KeyConstant.class
 com\products\utilities\Listeners.class
-com\products\pojo\Products.class
 com\products\payload\ProductPayload.class
 com\products\apiactions\AuthenticationActions.class
 com\products\payload\TestFirePayload.class
@@ -19,8 +19,8 @@ com\products\tests\Scenario1.class
 com\products\utilities\APIUtils.class
 com\products\endpoint\TestFireEndpoint.class
 com\products\pageobject\ProductPage.class
+com\products\pojo\ProductsPojo.class
 com\products\pageobject\CartPage.class
-com\products\pojo\TestFire.class
 com\products\message\MessageInfo.class
 com\products\tests\Scenario2.class
 com\products\apiactions\RequestActions.class

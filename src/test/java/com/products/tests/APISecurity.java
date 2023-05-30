@@ -36,5 +36,6 @@ public class APISecurity extends ReportGeneration {
     public void testUnauthorized(){
         auth.validateUnauthorized();
     }
+
 }
 

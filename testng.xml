@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Student-API-Automation">
+<suite name="API-Automation">
     <suite-files>
         <suite-file path="src/test/resources/suite_files/API.xml" />
     </suite-files>

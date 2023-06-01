@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APIAutomation]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.products.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="API(failed)" verbose="0">
+    <classes>
+      <class name="com.products.tests.APISecurity">
+        <methods>
+          <include name="testOpenAuthorization"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testGetAccessToken"/>
+          <include name="beforeMethod"/>
+          <include name="testBearerAuthorization"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.products.tests.APISecurity -->
+    </classes>
+  </test> <!-- API(failed) -->
+</suite> <!-- Failed suite [APIAutomation] -->

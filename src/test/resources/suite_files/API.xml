@@ -2,6 +2,7 @@
 <suite name="APIAutomation">
     <listeners>
         <listener class-name="com.products.utilities.Listeners"/>
+        <listener class-name="com.products.utilities.MyTransformer"></listener>
     </listeners>
     <test name="API">
         <classes>

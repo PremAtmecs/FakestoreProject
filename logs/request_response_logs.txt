@@ -18,11 +18,11 @@ Body:
 HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
 Content-Type: application/json
-Content-Length: 97
-Date: Fri, 02 Jun 2023 12:15:09 GMT
+Content-Length: 98
+Date: Tue, 06 Jun 2023 07:16:55 GMT
 
 {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Olk/VT8wP1k=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Bj8/ZA==",
     "success": "jsmith is now logged in"
 }
 Request method:	GET
@@ -33,7 +33,7 @@ Query params:	<none>
 Form params:	<none>
 Path params:	path=api
 				endpoint=login
-Headers:		Authorization=Bearer YW5OdGFYUm86WkdWdGJ6RXlNelE9Olk/VT8wP1k=
+Headers:		Authorization=Bearer YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Bj8/ZA==
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
@@ -42,7 +42,7 @@ HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
 Content-Type: application/json
 Content-Length: 19
-Date: Fri, 02 Jun 2023 12:15:12 GMT
+Date: Tue, 06 Jun 2023 07:16:57 GMT
 
 {
     "loggedin": "true"
@@ -63,7 +63,7 @@ HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
 Content-Type: application/json
 Content-Length: 19
-Date: Fri, 02 Jun 2023 12:15:13 GMT
+Date: Tue, 06 Jun 2023 07:16:59 GMT
 
 {
     "loggedin": "true"
@@ -89,7 +89,7 @@ HTTP/1.1 400 Bad Request
 Server: Apache-Coyote/1.1
 Content-Type: application/json
 Content-Length: 83
-Date: Fri, 02 Jun 2023 12:15:15 GMT
+Date: Tue, 06 Jun 2023 07:17:05 GMT
 Connection: close
 
 {
@@ -112,7 +112,7 @@ HTTP/1.1 401 Unauthorized
 Server: Apache-Coyote/1.1
 Content-Type: text/plain
 Content-Length: 35
-Date: Fri, 02 Jun 2023 12:15:16 GMT
+Date: Tue, 06 Jun 2023 07:17:06 GMT
 
 loggedIn=false
 Please log in first
@@ -128,7 +128,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:17 GMT
+Date: Tue, 06 Jun 2023 07:17:08 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -136,10 +136,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=i6nNCyf8V%2Fy%2BRmb8Mm19EWI9kbG8707zzdEYHr4U6Hzh%2FRvAs9y3oNr8e6vIZkmsd69X0%2FmisyuNIdUKTAJbqAKzl5HnX1TnDqTxLbomPEIfLd1euYdJzYjisV0Td%2BQDM%2BZq"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UBAhLfFGCCLEKMdyXPsUT9htDYHqtlBCgQFXaWu%2B%2B6ZoFzC6JrRd7R%2B27Hhjz%2BcpBUvLUv%2FUJD6%2BmXYilp%2FBpoahCBvKGvvynrlXXjSpD67PzvCsNOR9%2B%2FS9kbVNRlPa811G"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9ef75fe43f5d-SIN
+CF-RAY: 7d2edfb26cf791c3-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -244,7 +244,7 @@ alt-svc: h3=":443"; ma=86400
         "id": 9,
         "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0 ",
         "price": 64,
-        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user‚Äôs hardware configuration and operating system",
+        "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on userís hardware configuration and operating system",
         "category": "electronics",
         "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
         "rating": {
@@ -256,7 +256,7 @@ alt-svc: h3=":443"; ma=86400
         "id": 10,
         "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
         "price": 109,
-        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5‚Äù hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5î hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
         "category": "electronics",
         "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
         "rating": {
@@ -302,7 +302,7 @@ alt-svc: h3=":443"; ma=86400
     },
     {
         "id": 14,
-        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) ‚Äì Super Ultrawide Screen QLED ",
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) ñ Super Ultrawide Screen QLED ",
         "price": 999.99,
         "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
         "category": "electronics",
@@ -398,7 +398,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:18 GMT
+Date: Tue, 06 Jun 2023 07:17:09 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -406,10 +406,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"16d-qTR0d8mKeFXf4BNQZ3HqeuIY5nI"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ohvPZ%2Fjnx%2FmPgvEeMKXNPXxxpa3mjcT%2FvahggMaYcXm%2FfbubhBAlw1YU5jWnQTEFeDXur8IRw%2FSVeA%2BnmGAPZamL3A7fOc5xH3iz5yiq7I6h87lon5VeU9iV0lO%2FUU842TTh"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zHZZYr5VS6QnY1kYYsx%2FMmtrp%2B%2FpigFc1lkFSUJ95IU0pX7zPWYJbx8swjnGHzUJgKVXLHM6Ezkx0Q1%2FPZWKmP%2FZGWpxrs10N%2F%2F8mpLxPjoc6LzH7yEZsqDkm0YmyBBwpJRW"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9efabeb0402f-SIN
+CF-RAY: 7d2edfb78ac84a11-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -449,7 +449,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:19 GMT
+Date: Tue, 06 Jun 2023 07:17:09 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -457,10 +457,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"85-oobhkPLGgrtForpHGmDokAcISb8"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2KFt80B1Sd36cu1cos8fFA6k1L2ActKoDDTvyyE8xzIaBvoG6GIEiSMd%2BAlXOvhHzXASKCSLbILD3mejGoVTh0WUHdY4A2tvH56XBSpOsR0rD9Z%2Fq7qqc6gQoggggQHSQC1a"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rYJoECqCbsBbMGGv1NJYv%2F0pcUZo7EwXfkDsGIuG2T4HdISOZVeg5e92WMSTWULJ6wnkwd6VBF1BQ%2BSeFUMoBGNNBe9lbJ%2Fx9ZaSqsBqxRheH6jpEWjf1lRv%2F%2BVRQkJgEATd"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f00ddc8ab49-SIN
+CF-RAY: 7d2edfbdbcf84106-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -484,7 +484,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:21 GMT
+Date: Tue, 06 Jun 2023 07:17:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -492,10 +492,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=i0LhZ0xSVUollC%2BwxCo28uO7WUPkX3vLK45BClZm0YVdF8jcApu%2BfrVfoIn7AOR6pm6OmCv7k8V3ykoFYRk2ZoK7pVTpHrA8%2FiobqbSPHG57fuyRL4lJPT3OiHL2pouqhCfa"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WWDdQ7YnoZERsYKKGz4%2FL2srlOLb82oJx8OS1sugisqE1C%2BADV1xEuE34dMlUQlLVRuUDybrqmGrjolBjoiMNn%2BCz5nllsNdYKRUzjgr54tUdErZmaSNVDNE7ewadKl3bXEZ"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f07fe942e80-SIN
+CF-RAY: 7d2edfc468449fb9-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -569,7 +569,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:22 GMT
+Date: Tue, 06 Jun 2023 07:17:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -577,10 +577,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dtnemp5XaNOhrL8dnAbJLJpuWO%2FwF3ssakfKUM59m5J0R8X%2BYgn7xs%2FAY7Bj8GD5GBCjP8aQEO7cqaAOy6lz0T%2BjHknYynIopavV8dIdfu3Hi3BDFThOaEslA8llB%2FrVadse"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6tVY%2BG4H0xtLPFSsR8G%2F958eL5HHovc3ISP7VxLYCrPaW7C8qmVwaZUctSmMPD9G06eRXWksiFtpj9eiLVdngeRcFkqLXkvV6n1j9AeAugpkRKb57WV3d9KdT9CXAIr4s2XL"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f140fa34c6b-SIN
+CF-RAY: 7d2edfcb5e7a3e08-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -711,7 +711,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:23 GMT
+Date: Tue, 06 Jun 2023 07:17:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -719,10 +719,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"10c-7Egbp1+U8xwtB4VaP0z81mcg9B8"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WieZTvAmdJQ6PUTu72SoPvTIrizu2ix96Zt0x7ra%2BJTPdZ5Tv8Pt59ojCcq%2BwwvJ3rh%2Fh6OE9%2BMINfzozCPa9Zer7nA%2Fy5E%2Fh0XRdPRk26JNqBoihanr1KcLj1aBrFl%2BhMqt"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IdoyarQD9pV78h7M4pnfmfpkh6CxvF3v%2BszPqIg5ZTHqTtbHLkNfQLqNkqUTUGKSxxaWYU5%2FD2%2FQa61VrVEKigkShGwZ8al95tDGVxzhyyAM8NmVPp%2Fu5VKEw1tLv7FvrkM6"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f198a409e32-SIN
+CF-RAY: 7d2edfd119319fd1-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -772,7 +772,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:24 GMT
+Date: Tue, 06 Jun 2023 07:17:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -780,10 +780,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PxqnyaHi3mMKPFN2YEYvD2Z30lqlezfwnlyRI0BHswR9DanCSA9MqGAy5SvR84E6pwRfOq%2B%2B%2FIvrtdY2qnbTTw1mIj0Zxowpwz5io%2BAmfVROJoJptcdXb7JQYhB03P6hbF0K"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=15phO5z8b7EIfHZfSoCJLFZa2ZOdpOzCVSTFVjPQey%2FlqUWTsCfECQuSv7nRc55UdtB%2BAwKL25w1lGXrSwhyE5B4LrQplpXW9m6qoXuvO97hgasAz8mFgORUhGpoze9cQDNk"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f205bc83f83-SIN
+CF-RAY: 7d2edfd6aeb040fd-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -1023,60 +1023,60 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "syreeta.kohler@yahoo.com",
-    "username": "dicki.net",
-    "password": "u171ah8uyd",
+    "email": "margarita.simonis@gmail.com",
+    "username": "toy.biz",
+    "password": "whlcc1uytd6eis",
     "name": {
-        "firstname": "Breanna",
-        "lastname": "Gerhold"
+        "firstname": "Rosamaria",
+        "lastname": "Hackett"
     },
     "address": {
-        "city": "Ankara",
-        "street": "Percy Stravenue",
+        "city": "Pyongyang",
+        "street": "Renner Prairie",
         "number": 2,
-        "zipcode": "1289941909316",
+        "zipcode": "6672879006878",
         "geolocation": {
-            "lat": "BE861287",
-            "long": "5D23413C"
+            "lat": "9928B8B0",
+            "long": "41E3470E"
         }
     },
-    "phone": "(199) 221-2879"
+    "phone": "628-116-9464"
 }
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:25 GMT
+Date: Tue, 06 Jun 2023 07:17:15 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"12f-4/iqFHCqgG+k6z63R9A/8JBaEt0"
+Etag: W/"136-WqIZlmsf28arECF4wkThrQx9VuQ"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EcNVMO7a7ApDeOrfVcDUHVx9uzW2D%2FGIY%2FsvxHXsObKvmRZqWry2Ca57FQjotFEwuijTL98NNmEtoHr5PZNaipSzacFYR5AXNuITQw%2BtjSZRFCfq8EhAbb07Ao8Ypk9hFuEM"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PwGWRZtOUtz%2B3%2FwmFI1%2ByFBeKxYN7vHVaoXUgl0oyxyPvF%2BrYlqdK0Y7Zlu77ONuZeHFtrIUJKIpf%2BopTmvP5ySd9DZzejXt%2BzCDEW0apHCYzVJKtNiHMTuV%2FWiIb%2BqNTXjv"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f278a704a53-SIN
+CF-RAY: 7d2edfdecaf84103-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
-    "email": "syreeta.kohler@yahoo.com",
-    "username": "dicki.net",
-    "password": "u171ah8uyd",
+    "email": "margarita.simonis@gmail.com",
+    "username": "toy.biz",
+    "password": "whlcc1uytd6eis",
     "name": {
-        "firstname": "Breanna",
-        "lastname": "Gerhold"
+        "firstname": "Rosamaria",
+        "lastname": "Hackett"
     },
     "address": {
-        "city": "Ankara",
-        "street": "Percy Stravenue",
+        "city": "Pyongyang",
+        "street": "Renner Prairie",
         "number": 2,
-        "zipcode": "1289941909316",
+        "zipcode": "6672879006878",
         "geolocation": {
-            "lat": "BE861287",
-            "long": "5D23413C"
+            "lat": "9928B8B0",
+            "long": "41E3470E"
         }
     },
-    "phone": "(199) 221-2879"
+    "phone": "628-116-9464"
 }
 Request method:	POST
 Request URI:	https://fakestoreapi.com/users
@@ -1091,42 +1091,42 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "sharon.kautzer@gmail.com",
-    "username": "bosco.name",
-    "password": "nq7y0qbx9e611",
+    "email": "tyrone.okon@gmail.com",
+    "username": "kuhlman.biz",
+    "password": "0941ih4lb",
     "name": {
-        "firstname": "Charlie",
-        "lastname": "Wintheiser"
+        "firstname": "Mireille",
+        "lastname": "Davis"
     },
     "address": {
-        "city": "Khartoum",
-        "street": "Sadye Street",
-        "number": 6,
-        "zipcode": "5875067625931",
+        "city": "Damascus",
+        "street": "Gaston Mall",
+        "number": 0,
+        "zipcode": "8554397874932",
         "geolocation": {
-            "lat": "C4C1D5F8",
-            "long": "E1205F20"
+            "lat": "320535FC",
+            "long": "AAA93A70"
         }
     },
-    "phone": "145.804.6697 x4600"
+    "phone": "843-578-4949"
 }
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:26 GMT
+Date: Tue, 06 Jun 2023 07:17:16 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 9
+Content-Length: 8
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"9-hVv0cNJophUD7CGn+ZqXp8tVGo0"
+Etag: W/"8-h5EdGu1QmHe4OkjsU292jNzSLfE"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NkrBzDaIsFAZqTok1R0mVcnBmcxPc5f6X3OxZoDZ0iswgz968RqlQeKxBbojL9nK9Zpo%2FxiqWAFFxejBekOq5G5ybbSRpr%2BNIAj8ZRlZo87CuUZ4cQKYZHycxcmq6vABHM4Q"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2jEgsHzxbpRNeWEfLoHgEI4pvSw4QLMsvx6lx%2FIjAm%2BiEjga1XG%2BYGJK6K7yBYqmfficMPINvynw2HtOgJG6Ra%2FXbfgAAH%2BbU15QnwmJPmegwWU019dLQtKvS9jlPijyOLxl"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f2c3d5389bc-SIN
+CF-RAY: 7d2edfe42d864106-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 11
+    "id": 1
 }
 Request method:	DELETE
 Request URI:	https://fakestoreapi.com/users/6
@@ -1141,7 +1141,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Fri, 02 Jun 2023 12:15:27 GMT
+Date: Tue, 06 Jun 2023 07:17:17 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1149,10 +1149,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"12c-qh6raI/EWS3a5DDlu8tTdvjmcN0"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cs3tUhewWTp3qXJd66ue%2FN0hn%2FeHpMkMcKMspR5FthlMCEmp%2F3P1iNuq3x%2FclLU4kFjbjO37IaWbVoA%2F%2FrnIAlmP2y2sGUglLku5sc%2FzKkwLXRckN6r%2F4B5nGDFhiMv82kk%2B"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rVhDlgJ6G78I3FmaDSKQHutwUUmaiJh28hC%2FwqX2W0Ocj%2Bhg73Nr5rsl%2FxzHKcjadAeerbohmRJVeMxrukOfko%2BK2QV5xX%2BFRwNHQw8%2BbxjerP0YSpl55Y9WX958NMk0wFKr"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7d0f9f320dac8859-SIN
+CF-RAY: 7d2edfea5e114080-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 

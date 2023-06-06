@@ -11,10 +11,7 @@ public class ProductPayload {
     public static Faker faker = new Faker();
     public static ProductsPojo payload = new ProductsPojo();
     public static Rating rating = new Rating();
-    public static PropertyParser productData = new PropertyParser(FilePathConstant.PRODUCT_DATA_PATH); ;
-//    public ProductPayload(){
-//        productData = new PropertyParser(FilePathConstant.PRODUCT_DATA_PATH);
-//    }
+    public static PropertyParser productData = new PropertyParser(FilePathConstant.PRODUCT_DATA_PATH);
 
     public static ProductsPojo setupData(){
         rating.setRate(Double.parseDouble(productData.getPropertyValue(KeyConstant.RATE)));

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.372" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.475" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\target\test-classes;C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\target\classes;C:\Users\premkumar.sarathi\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\premkumar.sarathi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\premkumar.sarathi\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\premkumar.sarathi\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\premkumar.sarathi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\premkumar.sarathi\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\premkumar.sarathi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\premkumar.sarathi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\premkumar.sarathi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.class.path" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.fakestore\target\test-classes;C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.fakestore\target\classes;C:\Users\premkumar.sarathi\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\premkumar.sarathi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\premkumar.sarathi\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\premkumar.sarathi\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\premkumar.sarathi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\premkumar.sarathi\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\premkumar.sarathi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\premkumar.sarathi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\premkumar.sarathi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire16782299345645295767\surefirebooter-20230531110635900_3.jar C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire16782299345645295767 2023-05-31T11-06-35_680-jvmRun1 surefire-20230531110635900_1tmp surefire_0-20230531110635900_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire689500148667775312\surefirebooter-20230606124650775_3.jar C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire689500148667775312 2023-06-06T12-46-50_402-jvmRun1 surefire-20230606124650775_1tmp surefire_0-20230606124650775_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\target\test-classes;C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings\target\classes;C:\Users\premkumar.sarathi\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\premkumar.sarathi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\premkumar.sarathi\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\premkumar.sarathi\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\premkumar.sarathi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\premkumar.sarathi\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\premkumar.sarathi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\premkumar.sarathi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\premkumar.sarathi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.fakestore\target\test-classes;C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.fakestore\target\classes;C:\Users\premkumar.sarathi\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\premkumar.sarathi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\premkumar.sarathi\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\premkumar.sarathi\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\org\json\json\20230227\json-20230227.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\premkumar.sarathi\.m2\repository\io\rest-assured\json-schema-validator\5.3.0\json-schema-validator-5.3.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\premkumar.sarathi\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\premkumar.sarathi\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\premkumar.sarathi\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\premkumar.sarathi\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\premkumar.sarathi\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\premkumar.sarathi\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\premkumar.sarathi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\premkumar.sarathi\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\premkumar.sarathi\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\premkumar.sarathi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\premkumar.sarathi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\premkumar.sarathi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\premkumar.sarathi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\premkumar.sarathi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\premkumar.sarathi"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2023-01-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings"/>
+    <property name="basedir" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.fakestore"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire16782299345645295767\surefirebooter-20230531110635900_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\premkumar.sarathi\AppData\Local\Temp\surefire689500148667775312\surefirebooter-20230606124650775_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
@@ -47,9 +47,8 @@
     <property name="localRepository" value="C:\Users\premkumar.sarathi\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\PREMKU~1.SAR\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2022.2.5"/>
     <property name="java.version" value="11.0.18"/>
-    <property name="user.dir" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.bookings"/>
+    <property name="user.dir" value="C:\Users\premkumar.sarathi\IdeaProjects\com.api.automation.fakestore"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,17 +60,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testGetAccessToken" classname="com.products.tests.APISecurity" time="4.957">
+  <testcase name="testGetAccessToken" classname="com.products.tests.APISecurity" time="3.963">
     <system-out><![CDATA[onStart method started
 Method started testGetAccessToken
 HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
 Content-Type: application/json
-Content-Length: 97
-Date: Wed, 31 May 2023 05:36:42 GMT
+Content-Length: 98
+Date: Tue, 06 Jun 2023 07:16:55 GMT
 
 {
-    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8LPz8/cj8=",
+    "Authorization": "YW5OdGFYUm86WkdWdGJ6RXlNelE9Oj8/Bj8/ZA==",
     "success": "jsmith is now logged in"
 }
 PASS - Actual Result ::200==Expected Result ::200
@@ -82,13 +81,13 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testBearerAuthorization" classname="com.products.tests.APISecurity" time="1.345">
+  <testcase name="testBearerAuthorization" classname="com.products.tests.APISecurity" time="1.939">
     <system-out><![CDATA[Method started testBearerAuthorization
 HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
 Content-Type: application/json
 Content-Length: 19
-Date: Wed, 31 May 2023 05:36:45 GMT
+Date: Tue, 06 Jun 2023 07:16:57 GMT
 
 {
     "loggedin": "true"
@@ -97,13 +96,13 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testBearerAuthorization
 ]]></system-out>
   </testcase>
-  <testcase name="testOpenAuthorization" classname="com.products.tests.APISecurity" time="1.364">
+  <testcase name="testOpenAuthorization" classname="com.products.tests.APISecurity" time="2.112">
     <system-out><![CDATA[Method started testOpenAuthorization
 HTTP/1.1 200 OK
 Server: Apache-Coyote/1.1
 Content-Type: application/json
 Content-Length: 19
-Date: Wed, 31 May 2023 05:36:46 GMT
+Date: Tue, 06 Jun 2023 07:16:59 GMT
 
 {
     "loggedin": "true"
@@ -112,13 +111,13 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testOpenAuthorization
 ]]></system-out>
   </testcase>
-  <testcase name="testBadRequest" classname="com.products.tests.APISecurity" time="1.356">
+  <testcase name="testBadRequest" classname="com.products.tests.APISecurity" time="4.64">
     <system-out><![CDATA[Method started testBadRequest
 HTTP/1.1 400 Bad Request
 Server: Apache-Coyote/1.1
 Content-Type: application/json
 Content-Length: 83
-Date: Wed, 31 May 2023 05:36:47 GMT
+Date: Tue, 06 Jun 2023 07:17:05 GMT
 Connection: close
 
 {
@@ -128,13 +127,13 @@ PASS - Actual Result ::400==Expected Result ::400
 Method passed testBadRequest
 ]]></system-out>
   </testcase>
-  <testcase name="testUnauthorized" classname="com.products.tests.APISecurity" time="1.819">
+  <testcase name="testUnauthorized" classname="com.products.tests.APISecurity" time="1.639">
     <system-out><![CDATA[Method started testUnauthorized
 HTTP/1.1 401 Unauthorized
 Server: Apache-Coyote/1.1
 Content-Type: text/plain
 Content-Length: 35
-Date: Wed, 31 May 2023 05:36:49 GMT
+Date: Tue, 06 Jun 2023 07:17:06 GMT
 
 loggedIn=false
 Please log in first
@@ -142,10 +141,10 @@ PASS - Actual Result ::401==Expected Result ::401
 Method passed testUnauthorized
 ]]></system-out>
   </testcase>
-  <testcase name="tesGetAllProducts" classname="com.products.tests.Scenario1" time="0.818">
+  <testcase name="tesGetAllProducts" classname="com.products.tests.Scenario1" time="1.358">
     <system-out><![CDATA[Method started tesGetAllProducts
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:50 GMT
+Date: Tue, 06 Jun 2023 07:17:08 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -153,10 +152,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"297c-h+n6NsR3M51S6528jZo3BluzvtU"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bx2tKUL3tdWCGJWRzgK%2FMw1Je%2Fu3qss6ghu6L7zEHEaYICqlR6dUMX02skpulQfTXry7RCrxBQA16JViaCI7HcYeESv3kMpVQjILTSl6JBZ5CHzDuPvJUuUhaavhu50xgTOA"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UBAhLfFGCCLEKMdyXPsUT9htDYHqtlBCgQFXaWu%2B%2B6ZoFzC6JrRd7R%2B27Hhjz%2BcpBUvLUv%2FUJD6%2BmXYilp%2FBpoahCBvKGvvynrlXXjSpD67PzvCsNOR9%2B%2FS9kbVNRlPa811G"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdc89191f87e7-SIN
+CF-RAY: 7d2edfb26cf791c3-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -406,10 +405,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed tesGetAllProducts
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteProduct" classname="com.products.tests.Scenario1" time="0.867">
+  <testcase name="testDeleteProduct" classname="com.products.tests.Scenario1" time="0.469">
     <system-out><![CDATA[Method started testDeleteProduct
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:51 GMT
+Date: Tue, 06 Jun 2023 07:17:09 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -417,10 +416,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"16d-qTR0d8mKeFXf4BNQZ3HqeuIY5nI"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LXgwMyNxXqj7vunbRT34Gb80JCNyMnCFvldCTfM8cITGThrG7DXIkI%2BwCxdRRNFu2T2cT7eDT%2BtImfyaL3o1JSiGe74MFnpUESXwmeIQokdfVLqq3ioRWZDYnCK8ReyaCDkS"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zHZZYr5VS6QnY1kYYsx%2FMmtrp%2B%2FpigFc1lkFSUJ95IU0pX7zPWYJbx8swjnGHzUJgKVXLHM6Ezkx0Q1%2FPZWKmP%2FZGWpxrs10N%2F%2F8mpLxPjoc6LzH7yEZsqDkm0YmyBBwpJRW"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdc8dff714607-SIN
+CF-RAY: 7d2edfb78ac84a11-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -440,7 +439,7 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testDeleteProduct
 ]]></system-out>
   </testcase>
-  <testcase name="testAddProduct" classname="com.products.tests.Scenario1" time="1.105">
+  <testcase name="testAddProduct" classname="com.products.tests.Scenario1" time="1.115">
     <system-out><![CDATA[Method started testAddProduct
 Request method:	POST
 Request URI:	https://fakestoreapi.com/products
@@ -466,7 +465,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:52 GMT
+Date: Tue, 06 Jun 2023 07:17:09 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -474,10 +473,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"85-oobhkPLGgrtForpHGmDokAcISb8"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3oIWGKVV6l%2Fbm31hGTXsNsLukcdtQsBZmJ6faROJIwRJ5t5zJOlB1caaWDihOQQ1LMg7HDX%2FB3TZdCxVD%2Fz61w9pHNPSX62j4btVM81q4atsiVpbyRbdn5hM9CRkya8Qq8wt"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rYJoECqCbsBbMGGv1NJYv%2F0pcUZo7EwXfkDsGIuG2T4HdISOZVeg5e92WMSTWULJ6wnkwd6VBF1BQ%2BSeFUMoBGNNBe9lbJ%2Fx9ZaSqsBqxRheH6jpEWjf1lRv%2F%2BVRQkJgEATd"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdc93dde540ce-SIN
+CF-RAY: 7d2edfbdbcf84106-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -493,10 +492,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testAddProduct
 ]]></system-out>
   </testcase>
-  <testcase name="testGetLimitCart" classname="com.products.tests.Scenario2" time="0.888">
+  <testcase name="testGetLimitCart" classname="com.products.tests.Scenario2" time="0.991">
     <system-out><![CDATA[Method started testGetLimitCart
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:53 GMT
+Date: Tue, 06 Jun 2023 07:17:11 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -504,10 +503,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"1cb-k9STtBKwUNpGzaiwMY35nM5R8kQ"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=193YKan5FC4%2F3%2F2O5PmLc%2FHgqZ5arwYKgf7YqH7jpL5JTOcl6vyRI1sKefatffEoTYzZC%2B66WLZGyViDBqSMKmJza968EeSDFBPTGyKA3DS6P52MaS7wLGFtQ9YvyvppT5Hn"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WWDdQ7YnoZERsYKKGz4%2FL2srlOLb82oJx8OS1sugisqE1C%2BADV1xEuE34dMlUQlLVRuUDybrqmGrjolBjoiMNn%2BCz5nllsNdYKRUzjgr54tUdErZmaSNVDNE7ewadKl3bXEZ"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdc9aaa1d9f95-SIN
+CF-RAY: 7d2edfc468449fb9-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -573,10 +572,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testGetLimitCart
 ]]></system-out>
   </testcase>
-  <testcase name="testSortCartResult" classname="com.products.tests.Scenario2" time="0.852">
+  <testcase name="testSortCartResult" classname="com.products.tests.Scenario2" time="1.199">
     <system-out><![CDATA[Method started testSortCartResult
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:54 GMT
+Date: Tue, 06 Jun 2023 07:17:12 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -584,10 +583,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"3a8-nb02RQT3OuKfcepxTeTynGjWm8Q"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fwXLRZ5ZyEsrWh2nH8QcRaNg6lrGhK9QFCAAuhfuZgCkFVRIJ0HbXa8EGp2IKMH4C9EfLYvoAUjIubnMyFuZM%2BH2iybmLQLPLEXfvUg9Q6wEwyYRgm19p07gSgG9mkL5wWgj"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6tVY%2BG4H0xtLPFSsR8G%2F958eL5HHovc3ISP7VxLYCrPaW7C8qmVwaZUctSmMPD9G06eRXWksiFtpj9eiLVdngeRcFkqLXkvV6n1j9AeAugpkRKb57WV3d9KdT9CXAIr4s2XL"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdc9fcf42400e-SIN
+CF-RAY: 7d2edfcb5e7a3e08-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -709,10 +708,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testSortCartResult
 ]]></system-out>
   </testcase>
-  <testcase name="testDateRange" classname="com.products.tests.Scenario2" time="0.591">
+  <testcase name="testDateRange" classname="com.products.tests.Scenario2" time="0.817">
     <system-out><![CDATA[Method started testDateRange
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:54 GMT
+Date: Tue, 06 Jun 2023 07:17:13 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -720,10 +719,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"10c-7Egbp1+U8xwtB4VaP0z81mcg9B8"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JyQ3fz8fdYYT47BwaPJUGHjUHUVqI30zbucsC0Opehhk36PZIUV%2F3Rqgii8mSjGpWQfFhoFj%2FI%2FUmHEuW6upuI%2B7qybUWkAxud861xEHQbYkdy0hkICJrqrffTSa6CQhiB26"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IdoyarQD9pV78h7M4pnfmfpkh6CxvF3v%2BszPqIg5ZTHqTtbHLkNfQLqNkqUTUGKSxxaWYU5%2FD2%2FQa61VrVEKigkShGwZ8al95tDGVxzhyyAM8NmVPp%2Fu5VKEw1tLv7FvrkM6"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdca50ae6410f-SIN
+CF-RAY: 7d2edfd119319fd1-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -765,10 +764,10 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testDateRange
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAllUsers" classname="com.products.tests.Scenario3" time="0.886">
+  <testcase name="testGetAllUsers" classname="com.products.tests.Scenario3" time="1.443">
     <system-out><![CDATA[Method started testGetAllUsers
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:55 GMT
+Date: Tue, 06 Jun 2023 07:17:14 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -776,10 +775,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"bae-Vi0JNVg0EAD6LcGk4v18ASK0bgA"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5RDuC%2FzhkNYZTVvnmdQjZ9%2Bf1RO8OejRJI8e6C8v5wrZQxATN5G81ecLMNkNDYHvlzUGRS2heemf4RwT%2B%2FkRzegGRjTni%2FebIPHR7ht6qa7Fdp2FBDgC7GAxhOcM3fyXawZF"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=15phO5z8b7EIfHZfSoCJLFZa2ZOdpOzCVSTFVjPQey%2FlqUWTsCfECQuSv7nRc55UdtB%2BAwKL25w1lGXrSwhyE5B4LrQplpXW9m6qoXuvO97hgasAz8mFgORUhGpoze9cQDNk"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdca8e9899fcd-SIN
+CF-RAY: 7d2edfd6aeb040fd-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
@@ -1009,70 +1008,70 @@ PASS - Actual Result ::200==Expected Result ::200
 Method passed testGetAllUsers
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUser" classname="com.products.tests.Scenario3" time="0.981">
+  <testcase name="testUpdateUser" classname="com.products.tests.Scenario3" time="0.731">
     <system-out><![CDATA[Method started testUpdateUser
 Body:
 {
-    "email": "marita.gaylord@hotmail.com",
-    "username": "walsh.net",
-    "password": "9dpxc4cy",
+    "email": "margarita.simonis@gmail.com",
+    "username": "toy.biz",
+    "password": "whlcc1uytd6eis",
     "name": {
-        "firstname": "Carita",
-        "lastname": "Rolfson"
+        "firstname": "Rosamaria",
+        "lastname": "Hackett"
     },
     "address": {
-        "city": "Brasilia",
-        "street": "Wes Ville",
-        "number": 3,
-        "zipcode": "1512651973897",
+        "city": "Pyongyang",
+        "street": "Renner Prairie",
+        "number": 2,
+        "zipcode": "6672879006878",
         "geolocation": {
-            "lat": "60B79AAA",
-            "long": "36CD82F5"
+            "lat": "9928B8B0",
+            "long": "41E3470E"
         }
     },
-    "phone": "574-470-8148 x288"
+    "phone": "628-116-9464"
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:56 GMT
+Date: Tue, 06 Jun 2023 07:17:15 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"12d-FtA0auPMinBvEMZpoSfoB4gw4/U"
+Etag: W/"136-WqIZlmsf28arECF4wkThrQx9VuQ"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BTlQmqyb5OqGzfPRm20H%2B4gSquXr4YPGPFuE6xe8mcM2WvRgsaSMh3u5xmhbui8%2Fp87vIoQ8yvBGdbWDl18q7g0DO5HhKIVFNsRtqxvFCe8wgpQwqMM54MsTJNlHJjnnmXPx"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PwGWRZtOUtz%2B3%2FwmFI1%2ByFBeKxYN7vHVaoXUgl0oyxyPvF%2BrYlqdK0Y7Zlu77ONuZeHFtrIUJKIpf%2BopTmvP5ySd9DZzejXt%2BzCDEW0apHCYzVJKtNiHMTuV%2FWiIb%2BqNTXjv"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdcb04c4b4a1d-SIN
+CF-RAY: 7d2edfdecaf84103-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
 {
-    "email": "marita.gaylord@hotmail.com",
-    "username": "walsh.net",
-    "password": "9dpxc4cy",
+    "email": "margarita.simonis@gmail.com",
+    "username": "toy.biz",
+    "password": "whlcc1uytd6eis",
     "name": {
-        "firstname": "Carita",
-        "lastname": "Rolfson"
+        "firstname": "Rosamaria",
+        "lastname": "Hackett"
     },
     "address": {
-        "city": "Brasilia",
-        "street": "Wes Ville",
-        "number": 3,
-        "zipcode": "1512651973897",
+        "city": "Pyongyang",
+        "street": "Renner Prairie",
+        "number": 2,
+        "zipcode": "6672879006878",
         "geolocation": {
-            "lat": "60B79AAA",
-            "long": "36CD82F5"
+            "lat": "9928B8B0",
+            "long": "41E3470E"
         }
     },
-    "phone": "574-470-8148 x288"
+    "phone": "628-116-9464"
 }
 PASS - Actual Result ::200==Expected Result ::200
 Method passed testUpdateUser
 ]]></system-out>
   </testcase>
-  <testcase name="testAddUser" classname="com.products.tests.Scenario3" time="0.836">
+  <testcase name="testAddUser" classname="com.products.tests.Scenario3" time="0.866">
     <system-out><![CDATA[Method started testAddUser
 Request method:	POST
 Request URI:	https://fakestoreapi.com/users
@@ -1087,51 +1086,51 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "sammie.dickens@yahoo.com",
-    "username": "cruickshank.co",
-    "password": "2g5pi2bf0i",
+    "email": "tyrone.okon@gmail.com",
+    "username": "kuhlman.biz",
+    "password": "0941ih4lb",
     "name": {
-        "firstname": "Wilfred",
-        "lastname": "Hammes"
+        "firstname": "Mireille",
+        "lastname": "Davis"
     },
     "address": {
-        "city": "San Marino",
-        "street": "Dominick Crossroad",
-        "number": 8,
-        "zipcode": "3661652170274",
+        "city": "Damascus",
+        "street": "Gaston Mall",
+        "number": 0,
+        "zipcode": "8554397874932",
         "geolocation": {
-            "lat": "9D5A3A37",
-            "long": "6D383EDF"
+            "lat": "320535FC",
+            "long": "AAA93A70"
         }
     },
-    "phone": "(706) 805-9112 x208"
+    "phone": "843-578-4949"
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:57 GMT
+Date: Tue, 06 Jun 2023 07:17:16 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 9
+Content-Length: 8
 Connection: keep-alive
 Access-Control-Allow-Origin: *
-Etag: W/"9-hVv0cNJophUD7CGn+ZqXp8tVGo0"
+Etag: W/"8-h5EdGu1QmHe4OkjsU292jNzSLfE"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ATHHE29IbtpmkalDZcTaI5zYBXq5iU8mVsUWwS2D%2BMbaAfG9n4uPfm6ab5Nw%2FSDK6%2BYNVouLjNDvDWUdqoHxcyskm%2BFEDwF4MnN95phIlW18gPfn%2BQWkCBjKSAydFGRmJvrz"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2jEgsHzxbpRNeWEfLoHgEI4pvSw4QLMsvx6lx%2FIjAm%2BiEjga1XG%2BYGJK6K7yBYqmfficMPINvynw2HtOgJG6Ra%2FXbfgAAH%2BbU15QnwmJPmegwWU019dLQtKvS9jlPijyOLxl"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdcb488044026-SIN
+CF-RAY: 7d2edfe42d864106-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 11
+    "id": 1
 }
 PASS - Actual Result ::200==Expected Result ::200
 Method passed testAddUser
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser" classname="com.products.tests.Scenario3" time="0.833">
+  <testcase name="testDeleteUser" classname="com.products.tests.Scenario3" time="1.157">
     <system-out><![CDATA[Method started testDeleteUser
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 05:36:58 GMT
+Date: Tue, 06 Jun 2023 07:17:17 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -1139,10 +1138,10 @@ Access-Control-Allow-Origin: *
 Etag: W/"12c-qh6raI/EWS3a5DDlu8tTdvjmcN0"
 X-Powered-By: Express
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TavTxgnjRGkHEyzi%2Frx2%2F4zii%2FcQw0jEOD4lB7e0pPWzBT07RkH5p6St9KYzxeDmx1bR0T6bt5mKSmtg%2BQbrS4e8V09Ow4%2FxMUi%2FC%2BbaM%2BiZoiPjzhq4NDIVYa%2F4Z%2B8NdPI7"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rVhDlgJ6G78I3FmaDSKQHutwUUmaiJh28hC%2FwqX2W0Ocj%2Bhg73Nr5rsl%2FxzHKcjadAeerbohmRJVeMxrukOfko%2BK2QV5xX%2BFRwNHQw8%2BbxjerP0YSpl55Y9WX958NMk0wFKr"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 7cfcdcb9aa324937-SIN
+CF-RAY: 7d2edfea5e114080-SIN
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400
 
